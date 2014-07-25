@@ -1,0 +1,502 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0339DC73198215430009861F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0339DC72198215430009861F /* Foundation.framework */; };
+		0339DC75198215430009861F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0339DC74198215430009861F /* CoreGraphics.framework */; };
+		0339DC77198215430009861F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0339DC76198215430009861F /* UIKit.framework */; };
+		0339DC79198215430009861F /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0339DC78198215430009861F /* SpriteKit.framework */; };
+		0339DC7F198215430009861F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0339DC7D198215430009861F /* InfoPlist.strings */; };
+		0339DC81198215430009861F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0339DC80198215430009861F /* main.m */; };
+		0339DC85198215430009861F /* BAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0339DC84198215430009861F /* BAAppDelegate.m */; };
+		0339DC88198215430009861F /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0339DC86198215430009861F /* Main_iPhone.storyboard */; };
+		0339DC8B198215430009861F /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0339DC89198215430009861F /* Main_iPad.storyboard */; };
+		0339DC8E198215430009861F /* BAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0339DC8D198215430009861F /* BAViewController.m */; };
+		0339DC91198215430009861F /* BAMyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 0339DC90198215430009861F /* BAMyScene.m */; };
+		0339DC93198215430009861F /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = 0339DC92198215430009861F /* Spaceship.png */; };
+		0339DC95198215430009861F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0339DC94198215430009861F /* Images.xcassets */; };
+		0339DC9C198215430009861F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0339DC9B198215430009861F /* XCTest.framework */; };
+		0339DC9D198215430009861F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0339DC72198215430009861F /* Foundation.framework */; };
+		0339DC9E198215430009861F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0339DC76198215430009861F /* UIKit.framework */; };
+		0339DCA6198215430009861F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0339DCA4198215430009861F /* InfoPlist.strings */; };
+		0339DCA8198215430009861F /* BrideavoidTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0339DCA7198215430009861F /* BrideavoidTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0339DC9F198215430009861F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0339DC67198215430009861F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0339DC6E198215430009861F;
+			remoteInfo = Brideavoid;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0339DC6F198215430009861F /* Brideavoid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Brideavoid.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0339DC72198215430009861F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0339DC74198215430009861F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0339DC76198215430009861F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0339DC78198215430009861F /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		0339DC7C198215430009861F /* Brideavoid-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Brideavoid-Info.plist"; sourceTree = "<group>"; };
+		0339DC7E198215430009861F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0339DC80198215430009861F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0339DC82198215430009861F /* Brideavoid-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Brideavoid-Prefix.pch"; sourceTree = "<group>"; };
+		0339DC83198215430009861F /* BAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BAAppDelegate.h; sourceTree = "<group>"; };
+		0339DC84198215430009861F /* BAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BAAppDelegate.m; sourceTree = "<group>"; };
+		0339DC87198215430009861F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		0339DC8A198215430009861F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		0339DC8C198215430009861F /* BAViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BAViewController.h; sourceTree = "<group>"; };
+		0339DC8D198215430009861F /* BAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BAViewController.m; sourceTree = "<group>"; };
+		0339DC8F198215430009861F /* BAMyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BAMyScene.h; sourceTree = "<group>"; };
+		0339DC90198215430009861F /* BAMyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BAMyScene.m; sourceTree = "<group>"; };
+		0339DC92198215430009861F /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
+		0339DC94198215430009861F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0339DC9A198215430009861F /* BrideavoidTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrideavoidTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0339DC9B198215430009861F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		0339DCA3198215430009861F /* BrideavoidTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BrideavoidTests-Info.plist"; sourceTree = "<group>"; };
+		0339DCA5198215430009861F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0339DCA7198215430009861F /* BrideavoidTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BrideavoidTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0339DC6C198215430009861F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0339DC75198215430009861F /* CoreGraphics.framework in Frameworks */,
+				0339DC77198215430009861F /* UIKit.framework in Frameworks */,
+				0339DC79198215430009861F /* SpriteKit.framework in Frameworks */,
+				0339DC73198215430009861F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0339DC97198215430009861F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0339DC9C198215430009861F /* XCTest.framework in Frameworks */,
+				0339DC9E198215430009861F /* UIKit.framework in Frameworks */,
+				0339DC9D198215430009861F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0339DC66198215430009861F = {
+			isa = PBXGroup;
+			children = (
+				0339DC7A198215430009861F /* Brideavoid */,
+				0339DCA1198215430009861F /* BrideavoidTests */,
+				0339DC71198215430009861F /* Frameworks */,
+				0339DC70198215430009861F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0339DC70198215430009861F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0339DC6F198215430009861F /* Brideavoid.app */,
+				0339DC9A198215430009861F /* BrideavoidTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0339DC71198215430009861F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0339DC72198215430009861F /* Foundation.framework */,
+				0339DC74198215430009861F /* CoreGraphics.framework */,
+				0339DC76198215430009861F /* UIKit.framework */,
+				0339DC78198215430009861F /* SpriteKit.framework */,
+				0339DC9B198215430009861F /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0339DC7A198215430009861F /* Brideavoid */ = {
+			isa = PBXGroup;
+			children = (
+				0339DC83198215430009861F /* BAAppDelegate.h */,
+				0339DC84198215430009861F /* BAAppDelegate.m */,
+				0339DC86198215430009861F /* Main_iPhone.storyboard */,
+				0339DC89198215430009861F /* Main_iPad.storyboard */,
+				0339DC8C198215430009861F /* BAViewController.h */,
+				0339DC8D198215430009861F /* BAViewController.m */,
+				0339DC8F198215430009861F /* BAMyScene.h */,
+				0339DC90198215430009861F /* BAMyScene.m */,
+				0339DC92198215430009861F /* Spaceship.png */,
+				0339DC94198215430009861F /* Images.xcassets */,
+				0339DC7B198215430009861F /* Supporting Files */,
+			);
+			path = Brideavoid;
+			sourceTree = "<group>";
+		};
+		0339DC7B198215430009861F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0339DC7C198215430009861F /* Brideavoid-Info.plist */,
+				0339DC7D198215430009861F /* InfoPlist.strings */,
+				0339DC80198215430009861F /* main.m */,
+				0339DC82198215430009861F /* Brideavoid-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0339DCA1198215430009861F /* BrideavoidTests */ = {
+			isa = PBXGroup;
+			children = (
+				0339DCA7198215430009861F /* BrideavoidTests.m */,
+				0339DCA2198215430009861F /* Supporting Files */,
+			);
+			path = BrideavoidTests;
+			sourceTree = "<group>";
+		};
+		0339DCA2198215430009861F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0339DCA3198215430009861F /* BrideavoidTests-Info.plist */,
+				0339DCA4198215430009861F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0339DC6E198215430009861F /* Brideavoid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0339DCAB198215430009861F /* Build configuration list for PBXNativeTarget "Brideavoid" */;
+			buildPhases = (
+				0339DC6B198215430009861F /* Sources */,
+				0339DC6C198215430009861F /* Frameworks */,
+				0339DC6D198215430009861F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Brideavoid;
+			productName = Brideavoid;
+			productReference = 0339DC6F198215430009861F /* Brideavoid.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0339DC99198215430009861F /* BrideavoidTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0339DCAE198215430009861F /* Build configuration list for PBXNativeTarget "BrideavoidTests" */;
+			buildPhases = (
+				0339DC96198215430009861F /* Sources */,
+				0339DC97198215430009861F /* Frameworks */,
+				0339DC98198215430009861F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0339DCA0198215430009861F /* PBXTargetDependency */,
+			);
+			name = BrideavoidTests;
+			productName = BrideavoidTests;
+			productReference = 0339DC9A198215430009861F /* BrideavoidTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0339DC67198215430009861F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BA;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = pingdiff;
+				TargetAttributes = {
+					0339DC99198215430009861F = {
+						TestTargetID = 0339DC6E198215430009861F;
+					};
+				};
+			};
+			buildConfigurationList = 0339DC6A198215430009861F /* Build configuration list for PBXProject "Brideavoid" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0339DC66198215430009861F;
+			productRefGroup = 0339DC70198215430009861F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0339DC6E198215430009861F /* Brideavoid */,
+				0339DC99198215430009861F /* BrideavoidTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0339DC6D198215430009861F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0339DC93198215430009861F /* Spaceship.png in Resources */,
+				0339DC95198215430009861F /* Images.xcassets in Resources */,
+				0339DC8B198215430009861F /* Main_iPad.storyboard in Resources */,
+				0339DC88198215430009861F /* Main_iPhone.storyboard in Resources */,
+				0339DC7F198215430009861F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0339DC98198215430009861F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0339DCA6198215430009861F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0339DC6B198215430009861F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0339DC8E198215430009861F /* BAViewController.m in Sources */,
+				0339DC91198215430009861F /* BAMyScene.m in Sources */,
+				0339DC81198215430009861F /* main.m in Sources */,
+				0339DC85198215430009861F /* BAAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0339DC96198215430009861F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0339DCA8198215430009861F /* BrideavoidTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0339DCA0198215430009861F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0339DC6E198215430009861F /* Brideavoid */;
+			targetProxy = 0339DC9F198215430009861F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0339DC7D198215430009861F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0339DC7E198215430009861F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0339DC86198215430009861F /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0339DC87198215430009861F /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		0339DC89198215430009861F /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0339DC8A198215430009861F /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		0339DCA4198215430009861F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0339DCA5198215430009861F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0339DCA9198215430009861F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0339DCAA198215430009861F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0339DCAC198215430009861F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Brideavoid/Brideavoid-Prefix.pch";
+				INFOPLIST_FILE = "Brideavoid/Brideavoid-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0339DCAD198215430009861F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Brideavoid/Brideavoid-Prefix.pch";
+				INFOPLIST_FILE = "Brideavoid/Brideavoid-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		0339DCAF198215430009861F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Brideavoid.app/Brideavoid";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Brideavoid/Brideavoid-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BrideavoidTests/BrideavoidTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		0339DCB0198215430009861F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Brideavoid.app/Brideavoid";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Brideavoid/Brideavoid-Prefix.pch";
+				INFOPLIST_FILE = "BrideavoidTests/BrideavoidTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0339DC6A198215430009861F /* Build configuration list for PBXProject "Brideavoid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0339DCA9198215430009861F /* Debug */,
+				0339DCAA198215430009861F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0339DCAB198215430009861F /* Build configuration list for PBXNativeTarget "Brideavoid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0339DCAC198215430009861F /* Debug */,
+				0339DCAD198215430009861F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0339DCAE198215430009861F /* Build configuration list for PBXNativeTarget "BrideavoidTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0339DCAF198215430009861F /* Debug */,
+				0339DCB0198215430009861F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0339DC67198215430009861F /* Project object */;
+}
