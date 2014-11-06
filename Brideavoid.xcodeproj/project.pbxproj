@@ -7,24 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		03021141198D59EC00B2B684 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03021140198D59EC00B2B684 /* Main_iPad.storyboard */; };
+		03021143198D5A0400B2B684 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03021142198D5A0400B2B684 /* Main_iPhone.storyboard */; };
+		03021145198D5A4800B2B684 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 03021144198D5A4800B2B684 /* InfoPlist.strings */; };
+		03021147198D5D5C00B2B684 /* door.png in Resources */ = {isa = PBXBuildFile; fileRef = 03021146198D5D5C00B2B684 /* door.png */; };
+		03021149198D654B00B2B684 /* lauch.png in Resources */ = {isa = PBXBuildFile; fileRef = 03021148198D654B00B2B684 /* lauch.png */; };
+		03286984198C71D000BC9E0B /* BAScore.m in Sources */ = {isa = PBXBuildFile; fileRef = 03286983198C71D000BC9E0B /* BAScore.m */; };
+		03286986198D556800BC9E0B /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 03286985198D556800BC9E0B /* icon.png */; };
 		0339DC73198215430009861F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0339DC72198215430009861F /* Foundation.framework */; };
 		0339DC75198215430009861F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0339DC74198215430009861F /* CoreGraphics.framework */; };
 		0339DC77198215430009861F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0339DC76198215430009861F /* UIKit.framework */; };
 		0339DC79198215430009861F /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0339DC78198215430009861F /* SpriteKit.framework */; };
-		0339DC7F198215430009861F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0339DC7D198215430009861F /* InfoPlist.strings */; };
 		0339DC81198215430009861F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0339DC80198215430009861F /* main.m */; };
 		0339DC85198215430009861F /* BAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0339DC84198215430009861F /* BAAppDelegate.m */; };
-		0339DC88198215430009861F /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0339DC86198215430009861F /* Main_iPhone.storyboard */; };
-		0339DC8B198215430009861F /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0339DC89198215430009861F /* Main_iPad.storyboard */; };
 		0339DC8E198215430009861F /* BAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0339DC8D198215430009861F /* BAViewController.m */; };
-		0339DC91198215430009861F /* BAMyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 0339DC90198215430009861F /* BAMyScene.m */; };
-		0339DC93198215430009861F /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = 0339DC92198215430009861F /* Spaceship.png */; };
+		0339DC91198215430009861F /* BAGameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 0339DC90198215430009861F /* BAGameScene.m */; };
 		0339DC95198215430009861F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0339DC94198215430009861F /* Images.xcassets */; };
 		0339DC9C198215430009861F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0339DC9B198215430009861F /* XCTest.framework */; };
 		0339DC9D198215430009861F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0339DC72198215430009861F /* Foundation.framework */; };
 		0339DC9E198215430009861F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0339DC76198215430009861F /* UIKit.framework */; };
 		0339DCA6198215430009861F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0339DCA4198215430009861F /* InfoPlist.strings */; };
 		0339DCA8198215430009861F /* BrideavoidTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0339DCA7198215430009861F /* BrideavoidTests.m */; };
+		0339DCB6198216850009861F /* BAMenuScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 0339DCB5198216850009861F /* BAMenuScene.m */; };
+		0339DCBF198218550009861F /* Spawn.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0339DCBD198218550009861F /* Spawn.wav */; };
+		0339DCC3198218C10009861F /* bride.png in Resources */ = {isa = PBXBuildFile; fileRef = 0339DCC1198218C10009861F /* bride.png */; };
+		0339DCC4198218C10009861F /* groom.png in Resources */ = {isa = PBXBuildFile; fileRef = 0339DCC2198218C10009861F /* groom.png */; };
+		034B04A31A09AE5F00216DE3 /* lauch_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 034B04A21A09AE5F00216DE3 /* lauch_logo.png */; };
+		034B04A51A09B1C200216DE3 /* lauch_logo640x960.png in Resources */ = {isa = PBXBuildFile; fileRef = 034B04A41A09B1C200216DE3 /* lauch_logo640x960.png */; };
+		034B04A71A09C07400216DE3 /* lauch_logo1136x640.png in Resources */ = {isa = PBXBuildFile; fileRef = 034B04A61A09C07400216DE3 /* lauch_logo1136x640.png */; };
+		034B04A91A09C0BD00216DE3 /* lauch1136x640.png in Resources */ = {isa = PBXBuildFile; fileRef = 034B04A81A09C0BD00216DE3 /* lauch1136x640.png */; };
+		036CCECC19840711002B6540 /* backgroud.png in Resources */ = {isa = PBXBuildFile; fileRef = 036CCECB19840711002B6540 /* backgroud.png */; };
+		036CCED6198456F7002B6540 /* marcha.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 036CCED5198456F7002B6540 /* marcha.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,30 +51,46 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		03021140198D59EC00B2B684 /* Main_iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main_iPad.storyboard; sourceTree = "<group>"; };
+		03021142198D5A0400B2B684 /* Main_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main_iPhone.storyboard; sourceTree = "<group>"; };
+		03021144198D5A4800B2B684 /* InfoPlist.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = InfoPlist.strings; sourceTree = "<group>"; };
+		03021146198D5D5C00B2B684 /* door.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = door.png; sourceTree = "<group>"; };
+		03021148198D654B00B2B684 /* lauch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lauch.png; sourceTree = "<group>"; };
+		03286982198C71D000BC9E0B /* BAScore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BAScore.h; sourceTree = "<group>"; };
+		03286983198C71D000BC9E0B /* BAScore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BAScore.m; sourceTree = "<group>"; };
+		03286985198D556800BC9E0B /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		0339DC6F198215430009861F /* Brideavoid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Brideavoid.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0339DC72198215430009861F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		0339DC74198215430009861F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		0339DC76198215430009861F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		0339DC78198215430009861F /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
 		0339DC7C198215430009861F /* Brideavoid-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Brideavoid-Info.plist"; sourceTree = "<group>"; };
-		0339DC7E198215430009861F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0339DC80198215430009861F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0339DC82198215430009861F /* Brideavoid-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Brideavoid-Prefix.pch"; sourceTree = "<group>"; };
 		0339DC83198215430009861F /* BAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BAAppDelegate.h; sourceTree = "<group>"; };
 		0339DC84198215430009861F /* BAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BAAppDelegate.m; sourceTree = "<group>"; };
-		0339DC87198215430009861F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		0339DC8A198215430009861F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
 		0339DC8C198215430009861F /* BAViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BAViewController.h; sourceTree = "<group>"; };
 		0339DC8D198215430009861F /* BAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BAViewController.m; sourceTree = "<group>"; };
-		0339DC8F198215430009861F /* BAMyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BAMyScene.h; sourceTree = "<group>"; };
-		0339DC90198215430009861F /* BAMyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BAMyScene.m; sourceTree = "<group>"; };
-		0339DC92198215430009861F /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
+		0339DC8F198215430009861F /* BAGameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BAGameScene.h; sourceTree = "<group>"; };
+		0339DC90198215430009861F /* BAGameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BAGameScene.m; sourceTree = "<group>"; };
 		0339DC94198215430009861F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		0339DC9A198215430009861F /* BrideavoidTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrideavoidTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0339DC9B198215430009861F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		0339DCA3198215430009861F /* BrideavoidTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BrideavoidTests-Info.plist"; sourceTree = "<group>"; };
 		0339DCA5198215430009861F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0339DCA7198215430009861F /* BrideavoidTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BrideavoidTests.m; sourceTree = "<group>"; };
+		0339DCB1198216090009861F /* CGVector+TC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CGVector+TC.h"; sourceTree = "<group>"; };
+		0339DCB4198216850009861F /* BAMenuScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BAMenuScene.h; sourceTree = "<group>"; };
+		0339DCB5198216850009861F /* BAMenuScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BAMenuScene.m; sourceTree = "<group>"; };
+		0339DCBD198218550009861F /* Spawn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Spawn.wav; sourceTree = "<group>"; };
+		0339DCC1198218C10009861F /* bride.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bride.png; sourceTree = "<group>"; };
+		0339DCC2198218C10009861F /* groom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = groom.png; sourceTree = "<group>"; };
+		034B04A21A09AE5F00216DE3 /* lauch_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lauch_logo.png; sourceTree = "<group>"; };
+		034B04A41A09B1C200216DE3 /* lauch_logo640x960.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lauch_logo640x960.png; sourceTree = "<group>"; };
+		034B04A61A09C07400216DE3 /* lauch_logo1136x640.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lauch_logo1136x640.png; sourceTree = "<group>"; };
+		034B04A81A09C0BD00216DE3 /* lauch1136x640.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lauch1136x640.png; sourceTree = "<group>"; };
+		036CCECB19840711002B6540 /* backgroud.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backgroud.png; sourceTree = "<group>"; };
+		036CCED5198456F7002B6540 /* marcha.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = marcha.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,15 +152,21 @@
 		0339DC7A198215430009861F /* Brideavoid */ = {
 			isa = PBXGroup;
 			children = (
+				034496291A0AED7D005C3B83 /* images */,
+				034496281A0AED58005C3B83 /* songs */,
 				0339DC83198215430009861F /* BAAppDelegate.h */,
 				0339DC84198215430009861F /* BAAppDelegate.m */,
-				0339DC86198215430009861F /* Main_iPhone.storyboard */,
-				0339DC89198215430009861F /* Main_iPad.storyboard */,
+				0339DCB1198216090009861F /* CGVector+TC.h */,
+				0339DCB4198216850009861F /* BAMenuScene.h */,
+				0339DCB5198216850009861F /* BAMenuScene.m */,
 				0339DC8C198215430009861F /* BAViewController.h */,
 				0339DC8D198215430009861F /* BAViewController.m */,
-				0339DC8F198215430009861F /* BAMyScene.h */,
-				0339DC90198215430009861F /* BAMyScene.m */,
-				0339DC92198215430009861F /* Spaceship.png */,
+				0339DC8F198215430009861F /* BAGameScene.h */,
+				0339DC90198215430009861F /* BAGameScene.m */,
+				03286982198C71D000BC9E0B /* BAScore.h */,
+				03286983198C71D000BC9E0B /* BAScore.m */,
+				03021140198D59EC00B2B684 /* Main_iPad.storyboard */,
+				03021142198D5A0400B2B684 /* Main_iPhone.storyboard */,
 				0339DC94198215430009861F /* Images.xcassets */,
 				0339DC7B198215430009861F /* Supporting Files */,
 			);
@@ -142,7 +177,7 @@
 			isa = PBXGroup;
 			children = (
 				0339DC7C198215430009861F /* Brideavoid-Info.plist */,
-				0339DC7D198215430009861F /* InfoPlist.strings */,
+				03021144198D5A4800B2B684 /* InfoPlist.strings */,
 				0339DC80198215430009861F /* main.m */,
 				0339DC82198215430009861F /* Brideavoid-Prefix.pch */,
 			);
@@ -165,6 +200,32 @@
 				0339DCA4198215430009861F /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		034496281A0AED58005C3B83 /* songs */ = {
+			isa = PBXGroup;
+			children = (
+				036CCED5198456F7002B6540 /* marcha.mp3 */,
+				0339DCBD198218550009861F /* Spawn.wav */,
+			);
+			name = songs;
+			sourceTree = "<group>";
+		};
+		034496291A0AED7D005C3B83 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				03286985198D556800BC9E0B /* icon.png */,
+				03021148198D654B00B2B684 /* lauch.png */,
+				0339DCC1198218C10009861F /* bride.png */,
+				03021146198D5D5C00B2B684 /* door.png */,
+				0339DCC2198218C10009861F /* groom.png */,
+				036CCECB19840711002B6540 /* backgroud.png */,
+				034B04A81A09C0BD00216DE3 /* lauch1136x640.png */,
+				034B04A41A09B1C200216DE3 /* lauch_logo640x960.png */,
+				034B04A21A09AE5F00216DE3 /* lauch_logo.png */,
+				034B04A61A09C07400216DE3 /* lauch_logo1136x640.png */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -215,6 +276,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = pingdiff;
 				TargetAttributes = {
+					0339DC6E198215430009861F = {
+						DevelopmentTeam = BKDU42K6D4;
+					};
 					0339DC99198215430009861F = {
 						TestTargetID = 0339DC6E198215430009861F;
 					};
@@ -244,11 +308,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0339DC93198215430009861F /* Spaceship.png in Resources */,
+				034B04A71A09C07400216DE3 /* lauch_logo1136x640.png in Resources */,
+				0339DCC4198218C10009861F /* groom.png in Resources */,
+				034B04A91A09C0BD00216DE3 /* lauch1136x640.png in Resources */,
+				03021149198D654B00B2B684 /* lauch.png in Resources */,
+				0339DCC3198218C10009861F /* bride.png in Resources */,
+				0339DCBF198218550009861F /* Spawn.wav in Resources */,
+				03021141198D59EC00B2B684 /* Main_iPad.storyboard in Resources */,
+				03021145198D5A4800B2B684 /* InfoPlist.strings in Resources */,
+				03286986198D556800BC9E0B /* icon.png in Resources */,
 				0339DC95198215430009861F /* Images.xcassets in Resources */,
-				0339DC8B198215430009861F /* Main_iPad.storyboard in Resources */,
-				0339DC88198215430009861F /* Main_iPhone.storyboard in Resources */,
-				0339DC7F198215430009861F /* InfoPlist.strings in Resources */,
+				034B04A51A09B1C200216DE3 /* lauch_logo640x960.png in Resources */,
+				036CCED6198456F7002B6540 /* marcha.mp3 in Resources */,
+				03021143198D5A0400B2B684 /* Main_iPhone.storyboard in Resources */,
+				036CCECC19840711002B6540 /* backgroud.png in Resources */,
+				034B04A31A09AE5F00216DE3 /* lauch_logo.png in Resources */,
+				03021147198D5D5C00B2B684 /* door.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,9 +343,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				0339DC8E198215430009861F /* BAViewController.m in Sources */,
-				0339DC91198215430009861F /* BAMyScene.m in Sources */,
+				0339DC91198215430009861F /* BAGameScene.m in Sources */,
 				0339DC81198215430009861F /* main.m in Sources */,
 				0339DC85198215430009861F /* BAAppDelegate.m in Sources */,
+				0339DCB6198216850009861F /* BAMenuScene.m in Sources */,
+				03286984198C71D000BC9E0B /* BAScore.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,30 +370,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		0339DC7D198215430009861F /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0339DC7E198215430009861F /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		0339DC86198215430009861F /* Main_iPhone.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0339DC87198215430009861F /* Base */,
-			);
-			name = Main_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		0339DC89198215430009861F /* Main_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0339DC8A198215430009861F /* Base */,
-			);
-			name = Main_iPad.storyboard;
-			sourceTree = "<group>";
-		};
 		0339DCA4198215430009861F /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -405,10 +458,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Brideavoid/Brideavoid-Prefix.pch";
 				INFOPLIST_FILE = "Brideavoid/Brideavoid-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
 				WRAPPER_EXTENSION = app;
 			};
@@ -419,10 +475,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Brideavoid/Brideavoid-Prefix.pch";
 				INFOPLIST_FILE = "Brideavoid/Brideavoid-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
 				WRAPPER_EXTENSION = app;
 			};
@@ -487,6 +546,7 @@
 				0339DCAD198215430009861F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0339DCAE198215430009861F /* Build configuration list for PBXNativeTarget "BrideavoidTests" */ = {
 			isa = XCConfigurationList;
@@ -495,6 +555,7 @@
 				0339DCB0198215430009861F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
