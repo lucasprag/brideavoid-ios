@@ -17,7 +17,8 @@ static inline CGFloat TCVectorLength(CGVector vector)
 
 static inline CGVector TCVectorUnit(CGVector vector)
 {
-	CGFloat invLen = 1.0 / TCVectorLength(vector);
+    NSUInteger r = arc4random_uniform(10) + 1;
+	CGFloat invLen = r / TCVectorLength(vector);
 	return TCVectorMultiply(vector, invLen);
 }
 

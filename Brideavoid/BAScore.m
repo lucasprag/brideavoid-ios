@@ -2,7 +2,7 @@
 //  BAScore.m
 //  Brideavoid
 //
-//  Created by Lucas Oliveira on 8/1/14.
+//  Created by Lucas Oliveira on 7/25/14.
 //  Copyright (c) 2014 pingdiff. All rights reserved.
 //
 
@@ -50,6 +50,12 @@
         _label.fontColor = [SKColor colorWithHue:0 saturation:0 brightness:1 alpha:1];
         NSUserDefaults *prefs = [NSUserDefaults standardUserDefaults];
         int score = [prefs integerForKey:@"score"];
+        
+        int bestscore = [prefs integerForKey:@"best-score"];
+        if(bestscore > score){
+            [prefs setInteger:score forKey:@"best-score"];
+        }
+        
         _label.text = [NSString stringWithFormat:@"%02d", score];
         [self addChild:_label];
         

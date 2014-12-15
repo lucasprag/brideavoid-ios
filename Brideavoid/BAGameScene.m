@@ -21,9 +21,14 @@ enum {
     SKNode *_player;
     NSMutableArray *_enemies;
     SKLabelNode *_scoreLabel;
+    CGSize _players_sizes;
+    CGSize _body_players_sizes;
 }
 
 -(id)initWithSize:(CGSize)size {
+    _players_sizes = CGSizeMake(50,50);
+    _body_players_sizes = CGSizeMake(30,30);
+    
     if (self = [super initWithSize:size]) {
         
         SKSpriteNode *bg = [SKSpriteNode spriteNodeWithImageNamed:@"backgroud.png"];
@@ -42,16 +47,16 @@ enum {
         circle.strokeColor = [UIColor blueColor];
         circle.glowWidth = 2;
         
-        SKSpriteNode *trail = [SKSpriteNode spriteNodeWithImageNamed:@"groom.png"];
-        trail.size = CGSizeMake(30, 30);
-        trail.position = CGPointMake(0, 0);
+        SKSpriteNode *groom = [SKSpriteNode spriteNodeWithImageNamed:@"groom.png"];
+        groom.size = _players_sizes;
+        groom.position = CGPointMake(0, 0);
         
-        _player.physicsBody = [SKPhysicsBody bodyWithCircleOfRadius:10];
+        _player.physicsBody = [SKPhysicsBody bodyWithRectangleOfSize: _body_players_sizes];
         _player.physicsBody.mass = 100000;
         _player.physicsBody.categoryBitMask = CollisionPlayer;
         _player.physicsBody.contactTestBitMask = CollisionEnemy;
         
-        [_player addChild:trail];
+        [_player addChild:groom];
         
         _player.position = CGPointMake(size.width/2, size.height-90);
         
@@ -66,16 +71,16 @@ enum {
 }
 
 -(void)spawnEnemy{
-    
-    [self runAction:[SKAction playSoundFileNamed:@"Spawn.wav" waitForCompletion:NO]];
+//    adicionar um som bem legal
+//    [self runAction:[SKAction playSoundFileNamed:@"Spawn.wav" waitForCompletion:NO]];
     
     SKNode *enemy = [SKNode node];
-    SKSpriteNode *trail = [SKSpriteNode spriteNodeWithImageNamed:@"bride.png"];
-    trail.size = CGSizeMake(30, 30);
-    trail.position = CGPointMake(0, 10);
+    SKSpriteNode *bride = [SKSpriteNode spriteNodeWithImageNamed:@"bride.png"];
+    bride.size = _players_sizes;
+    bride.position = CGPointMake(0, 10);
     
-    [enemy addChild:trail];
-    enemy.physicsBody = [SKPhysicsBody bodyWithCircleOfRadius:6];
+    [enemy addChild:bride];
+    enemy.physicsBody = [SKPhysicsBody bodyWithRectangleOfSize: _body_players_sizes];
     enemy.physicsBody.categoryBitMask = CollisionEnemy;
     enemy.physicsBody.allowsRotation = NO;
     
@@ -119,8 +124,8 @@ SKAction *explosionAction(SKEmitterNode *explosion, CGFloat duration, dispatch_b
     
     [_player runAction:[SKAction sequence:@[
         [SKAction runBlock: ^{
-        NSUserDefaults *prefs = [NSUserDefaults standardUserDefaults];
-        [prefs setInteger:_enemies.count forKey:@"score"];
+            NSUserDefaults *prefs = [NSUserDefaults standardUserDefaults];
+            [prefs setInteger:_enemies.count forKey:@"score"];
             BAScore *score = [[BAScore alloc] initWithSize:self.size];
             score.scaleMode = SKSceneScaleModeAspectFill;
             [self.view presentScene:score transition:[SKTransition revealWithDirection:SKTransitionDirectionDown duration:0.5]];
