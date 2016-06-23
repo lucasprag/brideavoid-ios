@@ -6,6 +6,8 @@ This is my first game to the iOS plataform.
 
 Move the groom and avoid the brides
 
+#![game](game.gif)
+
 ## Installation
 
 Clone the repo
